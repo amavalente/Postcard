@@ -104,6 +104,15 @@
                                     <rect key="frame" x="250" y="215" width="100" height="100"/>
                                 </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMi-uY-zfe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="224" width="228" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="uyp-d9-EwH"/>
                                 <exclude reference="XwI-LQ-7LD"/>
                                 <exclude reference="ZjB-3r-9RI"/>
+                                <exclude reference="XMi-uY-zfe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="uyp-d9-EwH"/>
                                 <include reference="XwI-LQ-7LD"/>
                                 <include reference="ZjB-3r-9RI"/>
+                                <include reference="XMi-uY-zfe"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="gBu-dU-RMa" id="Pbr-QY-edy"/>
                         <outlet property="mailButton" destination="uyp-d9-EwH" id="7QR-zR-GUr"/>
                         <outlet property="messageLabel" destination="XwI-LQ-7LD" id="2ly-eI-e4Q"/>
+                        <outlet property="nameLabel" destination="XMi-uY-zfe" id="UWL-A8-iek"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
