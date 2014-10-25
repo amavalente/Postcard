@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78DDF4C019F8AF0E006CF73F /* einstein1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78DDF4BF19F8AF0E006CF73F /* einstein1.jpg */; };
 		78FDDEE019F89BF20045634B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDDEDF19F89BF20045634B /* AppDelegate.swift */; };
 		78FDDEE219F89BF20045634B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDDEE119F89BF20045634B /* ViewController.swift */; };
 		78FDDEE519F89BF20045634B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FDDEE319F89BF20045634B /* Main.storyboard */; };
 		78FDDEE719F89BF20045634B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FDDEE619F89BF20045634B /* Images.xcassets */; };
 		78FDDEEA19F89BF20045634B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FDDEE819F89BF20045634B /* LaunchScreen.xib */; };
 		78FDDEF619F89BF20045634B /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDDEF519F89BF20045634B /* PostcardTests.swift */; };
+		78FDDF0019F8A2120045634B /* paris001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FDDEFF19F8A2120045634B /* paris001.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78DDF4BF19F8AF0E006CF73F /* einstein1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein1.jpg; sourceTree = "<group>"; };
 		78FDDEDA19F89BF20045634B /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FDDEDE19F89BF20045634B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FDDEDF19F89BF20045634B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		78FDDEEF19F89BF20045634B /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FDDEF419F89BF20045634B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FDDEF519F89BF20045634B /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		78FDDEFF19F8A2120045634B /* paris001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris001.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		78FDDEDD19F89BF20045634B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78DDF4BF19F8AF0E006CF73F /* einstein1.jpg */,
+				78FDDEFF19F8A2120045634B /* paris001.jpg */,
 				78FDDEDE19F89BF20045634B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				78FDDEE519F89BF20045634B /* Main.storyboard in Resources */,
 				78FDDEEA19F89BF20045634B /* LaunchScreen.xib in Resources */,
+				78DDF4C019F8AF0E006CF73F /* einstein1.jpg in Resources */,
 				78FDDEE719F89BF20045634B /* Images.xcassets in Resources */,
+				78FDDF0019F8A2120045634B /* paris001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				78FDDEFB19F89BF20045634B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78FDDEFC19F89BF20045634B /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				78FDDEFE19F89BF20045634B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
